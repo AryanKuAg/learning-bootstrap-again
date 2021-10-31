@@ -1,0 +1,42 @@
+/* .behind {
+  background-color: bisque;
+  width: 100vw;
+  height: 100vh;
+  /* margin: 0; */
+/* } */
+*/ body {
+  background-color: bisque;
+}
+
+/* @media (min-width: sm) {
+  .behind {
+    background-color: aqua;
+  }
+} */
+
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: peru;
+  flex-basis: auto;
+  flex: auto;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+#three {
+  background-color: greenyellow;
+  /* flex-grow: 2; */
+  /* order: 4; */
+}
+
+.just {
+  border: 5px solid red;
+}
